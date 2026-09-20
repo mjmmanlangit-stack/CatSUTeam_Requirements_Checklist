@@ -1046,11 +1046,13 @@ function applyLockoutState(remainingMs, { input, button, errorEl, defaultErrorTe
 let confirmAction = null;
 let passwordStepVisible = false; // true once the password field has been revealed
 let confirmLockoutTimer = null;
+let confirmActionLabel = 'DELETE';
 
-function showConfirmModal(title, message, onConfirm){
+function showConfirmModal(title, message, onConfirm, actionLabel = 'DELETE'){
   confirmTitle.textContent = title;
   confirmMessage.textContent = message;
   confirmAction = onConfirm;
+  confirmActionLabel = actionLabel;
   confirmPasswordInput.value = '';
   confirmPasswordInput.disabled = false;
   confirmPasswordError.classList.remove('show');
@@ -1058,7 +1060,7 @@ function showConfirmModal(title, message, onConfirm){
   confirmOkBtn.disabled = false;
   passwordStepVisible = false;
   confirmPasswordField.classList.remove('show');
-  confirmOkBtn.textContent = 'DELETE';
+  confirmOkBtn.textContent = confirmActionLabel;
   if(confirmLockoutTimer) clearInterval(confirmLockoutTimer);
   confirmModal.classList.add('open');
 }
@@ -1082,7 +1084,7 @@ confirmOkBtn.addEventListener('click', async () => {
   if(!passwordStepVisible){
     passwordStepVisible = true;
     confirmPasswordField.classList.add('show');
-    confirmOkBtn.textContent = 'CONFIRM DELETE';
+    confirmOkBtn.textContent = `CONFIRM ${confirmActionLabel}`;
     const remaining = getLockoutRemainingMs();
     if(remaining > 0){
       confirmLockoutTimer = applyLockoutState(remaining, {
@@ -1760,7 +1762,8 @@ document.getElementById('load-shared-btn').addEventListener('click', async () =>
       savePlayers();
       renderAll();
       showSyncStatus('Loaded the latest shared data.', 'success');
-    }
+    },
+    'LOAD DATA'
   );
 });
 
