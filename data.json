@@ -1,0 +1,235 @@
+{
+  "requirements": [
+    {
+      "id": "r1",
+      "name": "Medical",
+      "active": true
+    },
+    {
+      "id": "r2",
+      "name": "PSA",
+      "active": true
+    },
+    {
+      "id": "r3",
+      "name": "National ID",
+      "active": true
+    },
+    {
+      "id": "r_mu982i4fjlrk6",
+      "name": "Notaryo",
+      "active": true
+    },
+    {
+      "id": "r_mu983oixfi3x1",
+      "name": "Certificate of Enrollment (COE)",
+      "active": true
+    }
+  ],
+  "players": [
+    {
+      "id": "p_mu97t69n50o65",
+      "name": "Joseph Tuangco (Spiker)",
+      "team": "MEN",
+      "checklist": {
+        "r1": false,
+        "r2": false,
+        "r3": false,
+        "r_mu982i4fjlrk6": false,
+        "r_mu983oixfi3x1": false
+      }
+    },
+    {
+      "id": "p_mu97vq52t4bt4",
+      "name": "Sandy Cueva (Setter)",
+      "team": "MEN",
+      "checklist": {
+        "r1": false,
+        "r2": false,
+        "r3": false,
+        "r_mu982i4fjlrk6": false,
+        "r_mu983oixfi3x1": false
+      }
+    },
+    {
+      "id": "p_mu97vw9nee7tp",
+      "name": "Jorence Pajenago (Setter)",
+      "team": "MEN",
+      "checklist": {
+        "r1": false,
+        "r2": false,
+        "r3": false,
+        "r_mu982i4fjlrk6": false,
+        "r_mu983oixfi3x1": false
+      }
+    },
+    {
+      "id": "p_mu97w44csr5jh",
+      "name": "E John Bernal (Tekong)",
+      "team": "MEN",
+      "checklist": {
+        "r1": false,
+        "r2": false,
+        "r3": false,
+        "r_mu982i4fjlrk6": false,
+        "r_mu983oixfi3x1": false
+      }
+    },
+    {
+      "id": "p_mu97wbcmf0dh0",
+      "name": "Jun Nazer Vicente (Setter)",
+      "team": "MEN",
+      "checklist": {
+        "r1": false,
+        "r2": false,
+        "r3": false,
+        "r_mu982i4fjlrk6": false,
+        "r_mu983oixfi3x1": false
+      }
+    },
+    {
+      "id": "p_mu97wnluqc4ck",
+      "name": "James Marty Terrobias (Spiker)",
+      "team": "MEN",
+      "checklist": {
+        "r1": false,
+        "r2": false,
+        "r3": false,
+        "r_mu982i4fjlrk6": false,
+        "r_mu983oixfi3x1": false
+      }
+    },
+    {
+      "id": "p_mu97wsqc3b4pc",
+      "name": "Joshua Sumalde (Tekong)",
+      "team": "MEN",
+      "checklist": {
+        "r1": false,
+        "r2": false,
+        "r3": false,
+        "r_mu982i4fjlrk6": false,
+        "r_mu983oixfi3x1": false
+      }
+    },
+    {
+      "id": "p_mu97xdiuxegl4",
+      "name": "Christian Nhel Samonte (Setter)",
+      "team": "MEN",
+      "checklist": {
+        "r1": false,
+        "r2": false,
+        "r3": false,
+        "r_mu982i4fjlrk6": false,
+        "r_mu983oixfi3x1": false
+      }
+    },
+    {
+      "id": "p_mu97xj8iz7kww",
+      "name": "Deeric Ortega (Spiker)",
+      "team": "MEN",
+      "checklist": {
+        "r1": false,
+        "r2": false,
+        "r3": false,
+        "r_mu982i4fjlrk6": false,
+        "r_mu983oixfi3x1": false
+      }
+    },
+    {
+      "id": "p_mu97xw8ctnia6",
+      "name": "Ryan Solsona (Spiker)",
+      "team": "MEN",
+      "checklist": {
+        "r1": false,
+        "r2": false,
+        "r3": false,
+        "r_mu982i4fjlrk6": false,
+        "r_mu983oixfi3x1": false
+      }
+    },
+    {
+      "id": "p_mu97y2vm2fl4f",
+      "name": "Jeric Camacho (Tekong)",
+      "team": "MEN",
+      "checklist": {
+        "r1": false,
+        "r2": false,
+        "r3": false,
+        "r_mu982i4fjlrk6": false,
+        "r_mu983oixfi3x1": false
+      }
+    },
+    {
+      "id": "p_mu984a6e51ax0",
+      "name": "Jeffrey Colas (Tekong)",
+      "team": "MEN",
+      "checklist": {
+        "r1": false,
+        "r2": false,
+        "r3": false,
+        "r_mu982i4fjlrk6": false,
+        "r_mu983oixfi3x1": false
+      }
+    },
+    {
+      "id": "p_mu98c55uz65o8",
+      "name": "Cheerl Dyn Camacho",
+      "team": "WOMEN",
+      "checklist": {
+        "r1": false,
+        "r2": false,
+        "r3": false,
+        "r_mu982i4fjlrk6": false,
+        "r_mu983oixfi3x1": false
+      }
+    },
+    {
+      "id": "p_mu98e1h4ucw6a",
+      "name": "Jian Estacio",
+      "team": "WOMEN",
+      "checklist": {
+        "r1": false,
+        "r2": false,
+        "r3": false,
+        "r_mu982i4fjlrk6": false,
+        "r_mu983oixfi3x1": false
+      }
+    },
+    {
+      "id": "p_mu98ekfy2mj75",
+      "name": "Bea Evangelista",
+      "team": "WOMEN",
+      "checklist": {
+        "r1": false,
+        "r2": false,
+        "r3": false,
+        "r_mu982i4fjlrk6": false,
+        "r_mu983oixfi3x1": false
+      }
+    },
+    {
+      "id": "p_mu98f02vkrqzc",
+      "name": "Rovelyn Sontillano",
+      "team": "WOMEN",
+      "checklist": {
+        "r1": false,
+        "r2": false,
+        "r3": false,
+        "r_mu982i4fjlrk6": false,
+        "r_mu983oixfi3x1": false
+      }
+    },
+    {
+      "id": "p_mu98fcoyw5vqg",
+      "name": "Stephanie Camacho",
+      "team": "WOMEN",
+      "checklist": {
+        "r1": false,
+        "r2": false,
+        "r3": false,
+        "r_mu982i4fjlrk6": false,
+        "r_mu983oixfi3x1": false
+      }
+    }
+  ]
+}
